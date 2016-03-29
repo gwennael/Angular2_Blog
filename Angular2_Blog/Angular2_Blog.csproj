@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{6FAF2F81-4CC5-44F5-8A20-0171EB148F7D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.7</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="blog.css" />
+    <Content Include="bootstrap_material_design\.gitignore" />
+    <Content Include="bootstrap_material_design\bootstrap-elements.html" />
+    <Content Include="bootstrap_material_design\demo\imgs\banner.jpg" />
+    <Content Include="bootstrap_material_design\demo\imgs\gittip-button.jpg" />
+    <Content Include="bootstrap_material_design\demo\imgs\issues-button.jpg" />
+    <Content Include="bootstrap_material_design\dist\css\bootstrap-material-design.css" />
+    <Content Include="bootstrap_material_design\dist\css\bootstrap-material-design.min.css" />
+    <Content Include="bootstrap_material_design\dist\css\ripples.css" />
+    <Content Include="bootstrap_material_design\dist\css\ripples.min.css" />
+    <Content Include="bootstrap_material_design\dist\js\material.js" />
+    <Content Include="bootstrap_material_design\dist\js\material.min.js" />
+    <Content Include="bootstrap_material_design\dist\js\ripples.js" />
+    <Content Include="bootstrap_material_design\dist\js\ripples.min.js" />
+    <Content Include="bootstrap_material_design\Gruntfile.js" />
+    <Content Include="bootstrap_material_design\index.css" />
+    <Content Include="bootstrap_material_design\index.html" />
+    <Content Include="bootstrap_material_design\meteor\example\.meteor\.gitignore" />
+    <Content Include="bootstrap_material_design\meteor\example\client\bmd.css" />
+    <Content Include="bootstrap_material_design\meteor\example\client\bmd.html" />
+    <Content Include="bootstrap_material_design\meteor\example\client\bmd.js" />
+    <Content Include="bootstrap_material_design\meteor\init.js" />
+    <Content Include="bootstrap_material_design\meteor\package.js" />
+    <Content Include="bootstrap_material_design\meteor\test.js" />
+    <Content Include="bootstrap_material_design\scripts\index.js" />
+    <Content Include="bootstrap_material_design\scripts\material.js" />
+    <Content Include="bootstrap_material_design\scripts\ripples.js" />
+    <Content Include="bootstrap_material_design\testcase.html" />
+    <Content Include="bootstrap_material_design\test\materialSpec.js" />
+    <Content Include="bootstrap_material_design\test\ripplesSpec.js" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="index.html" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-2.2.1.js" />
+    <Content Include="Scripts\jquery-2.2.1.min.js" />
+    <Content Include="templateHTML\entete.html" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="app\app.component.ts" />
+    <TypeScriptCompile Include="app\listeArticle.ts" />
+    <TypeScriptCompile Include="app\main.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="package.json" />
+    <Content Include="tsconfig.json" />
+    <Content Include="Scripts\jquery-2.2.1.min.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="bootstrap_material_design\.editorconfig" />
+    <Content Include="bootstrap_material_design\.npmignore" />
+    <Content Include="bootstrap_material_design\.ruby-gemset" />
+    <Content Include="bootstrap_material_design\.ruby-version" />
+    <Content Include="bootstrap_material_design\.travis.yml" />
+    <Content Include="bootstrap_material_design\.versions" />
+    <Content Include="bootstrap_material_design\bower.json" />
+    <Content Include="bootstrap_material_design\CONTRIBUTING.md" />
+    <Content Include="bootstrap_material_design\dist\css\bootstrap-material-design.css.map" />
+    <Content Include="bootstrap_material_design\dist\css\bootstrap-material-design.min.css.map" />
+    <Content Include="bootstrap_material_design\dist\css\ripples.css.map" />
+    <Content Include="bootstrap_material_design\dist\css\ripples.min.css.map" />
+    <Content Include="bootstrap_material_design\dist\js\material.min.js.map" />
+    <Content Include="bootstrap_material_design\dist\js\ripples.min.js.map" />
+    <Content Include="bootstrap_material_design\Gemfile" />
+    <Content Include="bootstrap_material_design\grunt\.jshintrc" />
+    <Content Include="bootstrap_material_design\grunt\configBridge.json" />
+    <Content Include="bootstrap_material_design\less\.csslintrc" />
+    <Content Include="bootstrap_material_design\less\bootstrap-material-design.less" />
+    <Content Include="bootstrap_material_design\less\plugins\_plugin-dropdownjs.less" />
+    <Content Include="bootstrap_material_design\less\plugins\_plugin-nouislider.less" />
+    <Content Include="bootstrap_material_design\less\plugins\_plugin-selectize.less" />
+    <Content Include="bootstrap_material_design\less\plugins\_plugin-snackbarjs.less" />
+    <Content Include="bootstrap_material_design\less\ripples.less" />
+    <Content Include="bootstrap_material_design\less\_alerts.less" />
+    <Content Include="bootstrap_material_design\less\_buttons.less" />
+    <Content Include="bootstrap_material_design\less\_cards.less" />
+    <Content Include="bootstrap_material_design\less\_checkboxes.less" />
+    <Content Include="bootstrap_material_design\less\_colors.less" />
+    <Content Include="bootstrap_material_design\less\_core.less" />
+    <Content Include="bootstrap_material_design\less\_dialogs.less" />
+    <Content Include="bootstrap_material_design\less\_dividers.less" />
+    <Content Include="bootstrap_material_design\less\_form.less" />
+    <Content Include="bootstrap_material_design\less\_import-bs-less.less" />
+    <Content Include="bootstrap_material_design\less\_import-bs-sass.less" />
+    <Content Include="bootstrap_material_design\less\_inputs-size.less" />
+    <Content Include="bootstrap_material_design\less\_inputs.less" />
+    <Content Include="bootstrap_material_design\less\_lists.less" />
+    <Content Include="bootstrap_material_design\less\_mixins.less" />
+    <Content Include="bootstrap_material_design\less\_navbar.less" />
+    <Content Include="bootstrap_material_design\less\_panels.less" />
+    <Content Include="bootstrap_material_design\less\_plugins.less" />
+    <Content Include="bootstrap_material_design\less\_popups.less" />
+    <Content Include="bootstrap_material_design\less\_progress.less" />
+    <Content Include="bootstrap_material_design\less\_radios.less" />
+    <Content Include="bootstrap_material_design\less\_shadows.less" />
+    <Content Include="bootstrap_material_design\less\_tabs.less" />
+    <Content Include="bootstrap_material_design\less\_themes.less" />
+    <Content Include="bootstrap_material_design\less\_togglebutton.less" />
+    <Content Include="bootstrap_material_design\less\_typography.less" />
+    <Content Include="bootstrap_material_design\less\_variables.less" />
+    <Content Include="bootstrap_material_design\less\_welljumbo.less" />
+    <Content Include="bootstrap_material_design\LICENSE.md" />
+    <Content Include="bootstrap_material_design\meteor\example\.meteor\packages" />
+    <Content Include="bootstrap_material_design\meteor\example\.meteor\release" />
+    <Content Include="bootstrap_material_design\meteor\example\run.bat" />
+    <Content Include="bootstrap_material_design\meteor\example\run.sh" />
+    <Content Include="bootstrap_material_design\meteor\README.md" />
+    <Content Include="bootstrap_material_design\package.json" />
+    <Content Include="bootstrap_material_design\README.md" />
+    <Content Include="bootstrap_material_design\sass\bootstrap-material-design.scss" />
+    <Content Include="bootstrap_material_design\sass\plugins\_plugin-dropdownjs.scss" />
+    <Content Include="bootstrap_material_design\sass\plugins\_plugin-nouislider.scss" />
+    <Content Include="bootstrap_material_design\sass\plugins\_plugin-selectize.scss" />
+    <Content Include="bootstrap_material_design\sass\plugins\_plugin-snackbarjs.scss" />
+    <Content Include="bootstrap_material_design\sass\ripples.scss" />
+    <Content Include="bootstrap_material_design\sass\_alerts.scss" />
+    <Content Include="bootstrap_material_design\sass\_buttons.scss" />
+    <Content Include="bootstrap_material_design\sass\_cards.scss" />
+    <Content Include="bootstrap_material_design\sass\_checkboxes.scss" />
+    <Content Include="bootstrap_material_design\sass\_colors-map.scss" />
+    <Content Include="bootstrap_material_design\sass\_colors.scss" />
+    <Content Include="bootstrap_material_design\sass\_core.scss" />
+    <Content Include="bootstrap_material_design\sass\_dialogs.scss" />
+    <Content Include="bootstrap_material_design\sass\_dividers.scss" />
+    <Content Include="bootstrap_material_design\sass\_form.scss" />
+    <Content Include="bootstrap_material_design\sass\_import-bs-less.scss" />
+    <Content Include="bootstrap_material_design\sass\_import-bs-sass.scss" />
+    <Content Include="bootstrap_material_design\sass\_inputs-size.scss" />
+    <Content Include="bootstrap_material_design\sass\_inputs.scss" />
+    <Content Include="bootstrap_material_design\sass\_labels.scss" />
+    <Content Include="bootstrap_material_design\sass\_lists.scss" />
+    <Content Include="bootstrap_material_design\sass\_mixins-utilities.scss" />
+    <Content Include="bootstrap_material_design\sass\_mixins.scss" />
+    <Content Include="bootstrap_material_design\sass\_navbar.scss" />
+    <Content Include="bootstrap_material_design\sass\_panels.scss" />
+    <Content Include="bootstrap_material_design\sass\_plugins.scss" />
+    <Content Include="bootstrap_material_design\sass\_popups.scss" />
+    <Content Include="bootstrap_material_design\sass\_progress.scss" />
+    <Content Include="bootstrap_material_design\sass\_radios.scss" />
+    <Content Include="bootstrap_material_design\sass\_shadows.scss" />
+    <Content Include="bootstrap_material_design\sass\_tabs.scss" />
+    <Content Include="bootstrap_material_design\sass\_themes.scss" />
+    <Content Include="bootstrap_material_design\sass\_togglebutton.scss" />
+    <Content Include="bootstrap_material_design\sass\_typography.scss" />
+    <Content Include="bootstrap_material_design\sass\_variables.scss" />
+    <Content Include="bootstrap_material_design\sass\_welljumbo.scss" />
+    <Content Include="bootstrap_material_design\scripts\.jscsrc" />
+    <Content Include="bootstrap_material_design\scripts\.jshintrc" />
+    <Content Include="bootstrap_material_design\_config.yml" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Angular2_Blog</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50810</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50810/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptExperimentalDecorators>true</TypeScriptExperimentalDecorators>
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot>H:\Documents\Visual Studio 2015\Projects\Angular2_Blog\Angular2_Blog\app</TypeScriptSourceRoot>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>
